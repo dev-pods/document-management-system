@@ -1,0 +1,22 @@
+{
+  "name": "dms-backend",
+  "version": "0.1.0",
+  "description": "Backend do Document Management System (seed do workshop)",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "dms",
+    "workshop",
+    "copilot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "5.2.1",
+    "multer": "2.2.0"
+  }
+}

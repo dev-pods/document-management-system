@@ -1,0 +1,23 @@
+{
+  "name": "Document Management System - GitHub Copilot Workshop",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "chat.agent.enabled": true,
+        "github.copilot.chat.codeGeneration.useInstructionFiles": true
+      }
+    }
+  },
+  "forwardPorts": [3000, 5173],
+  "postCreateCommand": "echo 'Ambiente pronto. Abra o README.md e siga o Passo 1.'"
+}

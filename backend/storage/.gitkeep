@@ -1,0 +1,2 @@
+# Mantenha esta pasta no controle de versão.
+# Os arquivos enviados (upload local via multer) serão gravados aqui em tempo de execução.

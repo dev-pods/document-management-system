@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+
+# Arquivos enviados em tempo de execução (upload local)
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Build do frontend
+frontend/dist/
+frontend/build/
+
+# Logs e temporários
+*.log
+.DS_Store
+.env
