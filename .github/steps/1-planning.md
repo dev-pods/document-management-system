@@ -22,7 +22,7 @@ System em `docs/specs`.
 Gere a especificação completa do Document Management System a partir do modelo
 em docs/specs/spec-template.md. Inclua requisitos funcionais, modelo de dados,
 contratos de API e um plano de execução em etapas. Respeite a Clean Architecture
-simples e a restrição de armazenamento local com multer.
+simples e a restrição de armazenamento local com multer. O plan criado não deve conter ainda a execução dos arquivos de back-end e front-end. apenas o documento dms-spec.md salvo em docs/specs
 ```
 
 ## Conceito: agente de planejamento
